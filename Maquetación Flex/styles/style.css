@@ -1,0 +1,158 @@
+@font-face{
+    font-family: 'LobsterTwo';
+    src: url(/font/LobsterTwo-Regular.ttf)
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family:'LobsterTwo'
+}
+
+header{
+    align-items: center;
+    border: 1px solid #666666;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin:.5rem;
+}
+
+header nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 50%;
+}
+
+header nav a{
+    background-color: khaki;
+    color: black;
+    border: 1px solid #666666;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+header a img{
+    padding: 1rem;
+    width: 150px;
+    
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:.5rem;
+    padding:.5rem;
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+
+}
+
+.passw{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+}
+
+
+.container{
+    align-items: stretch;
+    border:1px solid #666666;
+    border-radius: 1rem;
+    display:flex;
+    flex-direction: row;
+    
+    margin: .3rem;
+    padding: .3rem;
+
+}
+
+
+.container nav{
+    align-items: center;
+    background-color: antiquewhite;
+    border: 1px solid #666666;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin:.5rem;
+    padding: .5rem;
+    width: 15%;
+}
+
+.container nav a{
+    color:black;
+    text-decoration: none;
+}
+
+.container main{
+    align-items: center;
+    background-color: khaki;
+    border: 1px solid #666666;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+
+.container main section{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container main section article{
+    background-color: aquamarine;
+    border: 1px solid #666666;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    height: 4rem;
+    width: 9rem;
+}
+
+aside{
+    align-items: center;
+    background-color: palegoldenrod;
+    border: 1px solid #666666;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: .5rem;
+    padding: .5rem;
+    width: 15%;
+}
+
+aside a{
+    color:black;
+    text-decoration: none;
+
+}
+
+footer{
+    background-color:lightblue;
+    border: 1px solid #666666;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin: .5rem;
+    padding: 1rem;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
