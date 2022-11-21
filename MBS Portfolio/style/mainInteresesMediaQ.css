@@ -1,0 +1,22 @@
+
+@media (max-width: 992px){
+    /*No haría falta, la letra cambia automáticamente por utilizar la medida en vw*/
+}
+
+@media (max-width: 768px){
+    .containerRemote{
+        flex-direction: column;
+    }
+
+    .parrafoRemote{
+        text-align: justify;
+    }
+
+    .parrafoFree{
+        text-align: justify;
+    }
+
+    .containerFree{
+        flex-direction: column;
+    }
+}

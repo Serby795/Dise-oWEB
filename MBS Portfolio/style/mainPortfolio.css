@@ -1,0 +1,51 @@
+.containerPortfolio{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.experiencia1{
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.experiencia2{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.experiencia3{
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+}
+
+.imgExperiencia{
+   filter: none;
+   transition: linear 300ms; 
+}
+
+.imgExperiencia:hover{
+    filter: drop-shadow(2px 2px 5px #b0d9ff);
+    transition: linear 300ms;
+}
+
+.vermas{
+    color:#b0d9ff;
+    filter: none;
+    text-decoration: none;
+    transition: linear 300ms;
+}
+
+.vermas:hover{
+    font-size: larger;
+    filter: drop-shadow(2px 2px 5px #b0d9ff);
+    transition: linear 300ms;
+}

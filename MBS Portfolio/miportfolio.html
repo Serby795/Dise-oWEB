@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="img/logobmscopia.png">
+</head>
+
+<body>
+    <header>
+        <div class="containerHeader">
+            <a href="index.html" class="home"><img src="img/logobmscopia.png" alt="LogoMariusBogdanSerban"
+                    href="index.html" class="logo"></a>
+            <div class="containerMenu">
+                <a class="enlace" href="sobremi.html">Sobre mí</a>
+                <a class="enlace" href="miportfolio.html">Mi portfolio</a>
+                <a class="enlace" href="misintereses.html">Mis intereses</a>
+                <a class="enlace" href="acercade.html">Acerca de</a>
+                <div class="menu">
+                    <ul class="ul">
+                        <li class="li">
+                            <a class="enlaceMenu" href="miportfolio.html">Mi portfolio</a>
+                        </li class="li">
+                        <li class="li">
+                            <a class="enlaceMenu" href="misintereses.html">Mis intereses</a>
+                        </li>
+                        <li class="li">
+                            <a class="enlaceMenu" href="acercade.html">Acerca de</a>
+                        </li>
+                        <li class="li">
+                            <a class="enlaceMenu" href="sobremi.html">Sobre mí</a>
+                        </li>
+
+                        </ul>
+                </div>
+            </div>
+            <a href="docs/MariusCV.pdf" class="button">Mi CV</a>
+            <button class="btn-menu" id="btn-menu">
+                <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </button>
+        </div>
+        <script src="apps/menu.js"></script>
+    </header>
+    <main>
+        <div class="containerPortfolio">
+            <div class="experiencia1">
+                <div class="textoExperiencia">
+                    <h1 class="tituloExperiencia">Experiencia destacada 1</h1>
+                    <p class="parrafoExperiencia">Descripción de la experiencia. <span><a class="vermas" id="open-popup">Haga click aquí para ver más</a></span></p>
+                </div>
+                <img class="imgExperiencia" src="img/imgExperiencia.png" alt="Experiencia 1">
+            </div>
+            <div class="experiencia2">
+                <div class="textoExperiencia">
+                    <h1 class="tituloExperiencia">Experiencia destacada 2</h1>
+                    <p class="parrafoExperiencia">Descripción de la experiencia. <span><a id="open-popup" class="vermas">Haga click aquí para ver más</a></span></p>
+                </div>
+                <img class="imgExperiencia" src="img/imgExperiencia.png" alt="Experiencia 2">
+            </div>
+            <div class="experiencia3">
+                <div class="textoExperiencia">
+                    <h1 class="tituloExperiencia">Experiencia destacada 3</h1>
+                    <p class="parrafoExperiencia">Descripción de la experiencia. <span><a class="vermas" id="open-popup">Haga click aquí para ver más</a></span></p>
+                </div>
+                <img class="imgExperiencia" src="img/imgExperiencia.png" alt="Experiencia 3">
+            </div>
+        </div>
+        <div class="popup">
+            <div class="close-btn">&times;</div>
+            <h1 class="tituloExperiencia">Experiencia</h1>
+            <p>Aquí hay un hueco vacío, pero si se pone en contacto conmigo, seguro que lo rellenamos juntos.</p>
+        </div>
+        <script src="apps/pop-up.js"></script>
+    </main>
+    <footer>
+        <div class="containerFooter">
+            <div class="footerIzquierda">
+                <a class="enlaceMail" href="mailto:serban.marius95@gmail.com">serban.marius95@gmail.com</a>
+                <p>Diseñado y construido por Marius Bogdan Serban</p>
+            </div>
+            <div class="footerDerecha">
+                <a class="enlaceFooter" href="https://github.com/serby795"><img src="img/github.png"
+                        alt="Github Marius"></a>
+                <a class="enlaceFooter" href="https://www.instagram.com/mariusbogdanserban"><img src="img/instagram.png"
+                        alt="Instagram Marius"></a>
+                <a class="enlaceFooter" href="https://www.linkedin.com/in/mbs795/"><img src="img/linkedin.png"
+                        alt="LinkedIn Marius"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+
+@media (max-width:992px){
+    .imgExperiencia{
+        display:none;
+    }
+    
+    .tituloExperiencia{
+        font-size: 4vw;
+        text-align: center;
+    }
+
+    .parrafoExperiencia{
+        font-size: 3vw;
+    }
+}
+
+@media (max-width: 768px){
+    /*No haría falta porque los tamaños de las fuentes están expresados en vw*/
+}

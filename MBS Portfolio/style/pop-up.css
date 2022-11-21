@@ -1,0 +1,72 @@
+
+
+.popup {
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    background: rgba(255,255,255,.2);
+    border: 1px solid rgba(255,255,255,.15);
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 20px 5px rgba(255,255,255,.05);
+    position: fixed;
+    top:-150%;
+    left:50%;
+    opacity: 0;
+    padding: 20px 30px;
+    transform: translate(-50%, -50%) scale(1.2);
+    transition: top 0ms ease-in-out 300ms, opacity 300ms ease-in-out 0ms, transform 300ms ease-in-out 0ms;
+    width: 450px;
+    z-index: 1000;
+}
+
+.popup.active {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+    transition: top 0ms ease-in-out 0ms, opacity 300ms ease-in-out 0ms, transform 300ms ease-in-out 0ms;
+    top:50%;
+}
+
+.popup .close-btn {
+    background: rgba(255,255,255,0.15);
+    border-radius: 50%;
+    color: #b0d9ff;
+    cursor:pointer;
+    font-size: 18px;
+    line-height: 25px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+}
+
+.popup h1 {
+    font-size: 35px;
+    text-align: center;
+    margin: 10px 0px 20px;
+    color:#b0d9ff;
+}
+
+.popup p {
+    color:#b0d9ff;
+    font-size: 18px;
+}
+
+.containerPopup {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+button#open-popup {
+    background: transparent;
+    outline: none;
+    border: 2px solid #b0d9ff;
+    border-radius: 10px;
+    font-size: 25px;
+    color: #b0d9ff;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+}

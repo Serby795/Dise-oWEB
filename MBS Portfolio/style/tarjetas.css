@@ -1,0 +1,81 @@
+/*Diseño de las tarjetas*/
+
+.tarjeta{
+    height: 350px;
+    position: relative;
+    width: 300px;
+}
+
+.tarjeta .cara{
+    backface-visibility: hidden;
+    border-radius: 10px;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    transition: .5s;
+    width: 100%;
+}
+
+
+.tarjeta .delantera{
+    box-shadow: 0 5px 10px black;
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.tarjeta .delantera img{
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+}
+
+.tarjeta .delantera h3{
+    background: rgba(0,0,0,.7);
+    bottom: 0;
+    color: #b0d9ff;
+    height: 45px;
+    line-height: 45px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.tarjeta .trasera{
+    background: #1E2027;
+    box-shadow: 0 5px 10px black;
+    color: #b0d9ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.tarjeta .trasera .link{
+    border-top: solid 1px #b0d9ff;
+    height: 50px;
+    line-height: 50px;
+}
+
+.tarjeta .trasera .link a{
+    color: #b0d9ff;
+}
+
+
+.tarjeta .trasera h3{
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+.tajerta .trasera p{
+    letter-spacing: 1px;
+}
+
+.tarjeta:hover .delantera{
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.tarjeta:hover .trasera{
+    transform: perspective(600px) rotateY(360deg);
+}

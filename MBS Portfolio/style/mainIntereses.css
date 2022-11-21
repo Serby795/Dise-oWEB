@@ -1,0 +1,58 @@
+
+.containerIntereses{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: .5rem;
+}
+
+.tituloIntereses{
+    font-size:4vw;
+    text-align: center;
+}
+
+.containerRemote{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.parrafoRemote{
+    font-size: 2vw;
+    margin: .5rem;
+    padding: .5rem;
+    text-align: left;
+    width: 70%;
+}
+
+.containerFree{
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.parrafoFree{
+    font-size: 2vw;
+    margin: .5rem;
+    padding: .5rem;
+    text-align: right;
+    width: 70%;
+}
+
+.imgIntereses{
+    filter: none;
+    min-width: 200px;
+    max-width: 300px;
+    transition: linear 300ms;
+    width: 225px;
+}
+
+.imgIntereses:hover{
+    filter: drop-shadow(2px 2px 5px #b0d9ff);
+    transition: linear 300ms;
+}

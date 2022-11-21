@@ -1,0 +1,63 @@
+/*Diseño header*/
+
+.containerHeader {
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.containerMenu {
+    align-items: center;
+    display: flex;
+    margin: .5rem;
+}
+
+.home {
+    margin: .5rem;
+    width: 30%;
+}
+
+.logo {
+    max-width: 150px;
+    min-width: 100px;
+    transition: ease-out 200ms;
+    width: 100%;
+}
+
+.logo:hover {
+    filter: drop-shadow(2px 2px 2px #b0d9ff);
+    transition: ease-in 200ms;
+}
+
+header .enlace {
+    font-size: 1.2rem;
+    margin: .7rem;
+}
+
+.enlace {
+    color: #B0D9FF;
+    text-decoration: none;
+}
+
+.menu {
+    display: none;
+}
+
+.btn-menu {
+    display: none;
+}
+
+.svg {
+    display: none;
+}
+
+.ul {
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    list-style: none;
+}

@@ -1,0 +1,15 @@
+
+@media (max-width: 992px){
+    .todoSobreMi{
+        flex-direction: column;
+    }
+
+    .imgSobreMi{
+        margin: 2rem;
+        width: 30vw;
+    }
+}
+
+@media (max-width: 768px){
+    /*No haría falta porque tanto el tamaño de la fuente como el de las fotos está puesto en vw y se adapta al tamaño de la pantalla*/
+}

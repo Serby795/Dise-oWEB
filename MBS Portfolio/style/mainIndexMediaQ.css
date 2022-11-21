@@ -1,0 +1,15 @@
+
+@media (max-width: 992px){
+    .imgMarius{
+        display:none;
+    }
+
+    .containerDedicacion{
+        display:flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px){
+    /*En este caso no hace falta*/
+}

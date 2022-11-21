@@ -1,0 +1,34 @@
+
+.containerSobreMi{
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.tituloSobreMi{
+    font-size: 5vw;
+}
+
+.todoSobreMi{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}
+
+.textoSobreMi{
+    font-size: 2.5vw;
+    margin-left: 2rem;
+    margin-right: 4rem;
+    text-align: left;
+}
+
+.imgSobreMi{
+    filter:none;
+    transition: linear 300ms;
+}
+.imgSobreMi:hover{
+    filter: drop-shadow(2px 2px 5px #b0d9ff);
+    transition: linear 300ms;
+}

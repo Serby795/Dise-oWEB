@@ -1,0 +1,62 @@
+@media (max-width:992px) {
+    .btn-menu {
+        align-items: center;
+        background-color: #1E2027;
+        border: 5px;
+        cursor: pointer;
+        display: block;
+        height: 50px;
+        justify-content: center;
+        margin: .5rem;
+        width: 50px;
+    }
+
+    .svg {
+        display: block;
+        fill: #b0d9ff;
+        height: 30px;
+        width: 30px;
+    }
+
+    .enlace {
+        display: none;
+    }
+
+    .menu {
+        align-items: center;
+        height: 0;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        overflow: hidden;
+        pointer-events: none;
+        transition: all .5s ease;
+        width: 100%;
+    }
+
+    .menu.activo {
+        height: 50vh;
+        pointer-events: auto;
+    }
+
+    .ul {
+        flex-direction: column;
+    }
+    .li{
+        border-bottom: .2px  solid #b0d9ff;
+        margin: 1rem 0;
+    }
+
+    .enlaceMenu {
+        color: #b0d9ff;
+        font-size:2vw;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+}
+
+
+@media (max-width:768px) {
+    /*No haría falta, ya están puestas todas las medidas en vw y se ajustan al tamaño del viewport*/
+}

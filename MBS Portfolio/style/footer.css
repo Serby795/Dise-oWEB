@@ -1,0 +1,30 @@
+
+.containerFooter{
+    align-items: center;
+    border-top: 2px solid black;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    justify-content: space-between;
+    margin: .5rem;
+}
+
+.footerIzquierda{
+    align-self:flex-end;
+}
+
+.footerDerecha{
+    margin: .5rem;
+}
+
+.enlaceMail{
+    color: #b0d9ff;
+    text-decoration: none;
+}
+
+.enlaceFooter{
+    margin:.2rem;
+    max-width: 50px;
+    min-width: 30px;
+}

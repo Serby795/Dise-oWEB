@@ -1,0 +1,94 @@
+/*Diseño Main de index*/
+
+
+.containerMain{
+    display: flex;
+    flex-direction: column;
+    margin: .7rem;
+    padding: .3rem;
+}
+
+.containerIntro{
+    align-items: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.imgMarius{ 
+    border-radius: 2%;
+    filter: hue-rotate(180deg) saturate(.4) contrast(100%) brightness(75%) drop-shadow(2px 2px 2px #b0d9ff);
+    margin: 3rem;
+    max-width: 400px;
+    min-width: 250px;
+    transition: linear 300ms;
+    width: 30%;
+}
+
+.imgMarius:hover{
+    filter: none;
+    transition:linear 200ms;
+}
+
+.tituloIntro{
+    border: .3rem ridge #b0d9ff;
+    border-radius: 1rem;
+    font-size: 3.5vw;
+    margin: 3rem;
+    padding: 4rem;
+    text-align: center;
+}
+
+
+.containerMeDedico{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+
+.containerDedicacion{
+    align-items: start;
+    display:flex;
+    justify-content: space-around;
+}
+
+.meDedico{
+    font-size: 3vw;
+    margin-top:3rem;
+    text-align: center;
+    width: 50%;
+}
+
+.dedicacion{
+    align-content: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3rem;
+    text-align: center;
+    width: 30%;
+}
+
+.tituloDedicacion{
+    font-size: 3vw;
+    text-align: center;
+}
+
+.imgDedicacion{
+    filter: hue-rotate(180deg) saturate(.4) contrast(90%) brightness(80%);
+    max-width: 400px;
+    min-width: 250px;
+    transition: linear 300ms;
+    width: 100%;
+}
+
+
+.imgDedicacion:hover{
+    filter: none;
+    transition: linear 200ms;
+}
