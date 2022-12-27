@@ -1,0 +1,52 @@
+//Aquí hay varios mixins declarados
+
+@mixin displayFlex(){
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+@mixin displaySpace(){
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin displayEnd(){
+    align-items: center;
+    display:flex;
+    justify-content: end;
+}
+
+
+@mixin paddingMargin($valor){
+    padding: calc($valor / 2);
+    margin: $valor;
+}
+
+@mixin altura($vh){
+    height: $vh;
+    max-height: $vh;
+    min-height: $vh;
+}
+
+@mixin reset{
+    box-sizing: border-box;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+@mixin ease($tiempo){
+    transition: ease $tiempo;
+}
+
+
+@mixin shadow{
+    filter:drop-shadow(0 0 0.5rem $hoverTexto);
+}
+

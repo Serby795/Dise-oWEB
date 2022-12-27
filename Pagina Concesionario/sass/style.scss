@@ -1,0 +1,13 @@
+//Archivo de estilos principal, es el que se procesa para convertirlo todo a css, se hace import de todos los demás
+
+
+
+@import "header";
+@import "mix";
+@import "footer";
+@import "mainIndex";
+
+
+body{
+   @include reset;
+}

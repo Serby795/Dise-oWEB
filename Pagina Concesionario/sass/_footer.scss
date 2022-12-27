@@ -1,0 +1,39 @@
+//Diseño del footer, import mix para poder usar los mixins
+
+@import "mix";
+
+footer {
+    @include shadow();
+    @include displayFlex();
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    height: 10vh;
+    width: 100vw;
+    
+
+    .containerFooter {
+
+        width: 100%;
+
+
+        .contacto {
+            @include displayEnd();
+            @include paddingMargin(1rem);
+
+            .red {
+                @include paddingMargin(.3rem);
+                @include ease(500ms);
+            }
+
+            .red:hover{
+                @include ease(500ms);
+                @include shadow();
+            }
+
+
+        }
+
+    }
+
+}

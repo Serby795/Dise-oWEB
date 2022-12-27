@@ -1,0 +1,137 @@
+//Diseño del header, import mix para poder usar los mixins
+
+@import "mix";
+
+$textoHeader: rgb(0, 0, 0);
+$backgroundHeader: rgb(255, 255, 255);
+$buttonBackground: rgba(255, 255, 255, 0.05);
+$hoverTexto: rgb(255, 89, 0);
+$fuenteContacto: 1vw;
+
+
+.containerHeader {
+    @include displaySpace;
+    @include shadow;
+    background-color: $backgroundHeader;
+    height: 10vh;
+    width: 100%;
+    top: 0px;
+
+
+
+    .logo {
+        @include altura(8vh);
+        @include paddingMargin(1rem);
+    }
+
+    .contacto {
+        @include displaySpace;
+        width: 20%;
+
+        .correo {
+            @include displayFlex();
+
+            a {
+                color: $textoHeader;
+                font-size: $fuenteContacto;
+                margin: .5rem;
+                text-decoration: none;
+                @include ease(200ms);
+            }
+
+            a:hover{
+                border-bottom: 1px solid $hoverTexto;
+                color: $hoverTexto;
+                font-size:larger;
+                @include ease(200ms);
+            }
+        }
+
+        .telefono {
+            @include displayFlex();
+
+            a {
+                color: $textoHeader;
+                font-size: $fuenteContacto;
+                margin: .5rem;
+                text-decoration: none;
+                @include ease(200ms);
+            }
+            a:hover{
+                border-bottom: 1px solid $hoverTexto;
+                color: $hoverTexto;
+                font-size: larger;
+                @include ease(200ms);
+            }
+        }
+
+    }
+
+
+    .menuNavegacion {
+        display: flex;
+        justify-content: end;
+        height: 100%;
+        width: 55%;
+
+
+        .navega {
+            color: $textoHeader;
+            background-color: $buttonBackground;
+            border: none;
+            border-radius: 1rem;
+
+            text: {
+                decoration: none;
+                align: center;
+            }
+
+            font: {
+                size: 1.1vw;
+                weight: bolder;
+            }
+
+            height: 100%;
+            margin: .2rem;
+            margin-top: .2rem;
+            margin-bottom: .5rem;
+            cursor: pointer;
+        }
+
+        .navega:hover {
+            color: $hoverTexto;
+            font-size: larger;
+            transition: floor($number: 100)
+        }
+    }
+
+
+
+    .logIn {
+        @include paddingMargin(1rem);
+        @include displayFlex();
+        height: 100%;
+        width: 10%;
+
+
+        .logRegistro {
+            
+            @include ease(300ms);
+            background-color:white;
+            border: none;
+            border-radius: 1rem;
+            cursor: pointer;
+            font-size: .9vw;
+            height: 50%;
+            text-align: center;
+            width: 50%;
+        }
+
+        .logRegistro:hover{
+            @include ease(300ms);
+            background-color: black;
+            color: $hoverTexto;
+        }
+    }
+} 
+

@@ -1,0 +1,154 @@
+.containerHeader {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  filter: drop-shadow(0 0 0.5rem rgb(255, 89, 0));
+  background-color: rgb(255, 255, 255);
+  height: 10vh;
+  width: 100%;
+  top: 0px;
+}
+.containerHeader .logo {
+  height: 8vh;
+  max-height: 8vh;
+  min-height: 8vh;
+  padding: 0.5rem;
+  margin: 1rem;
+}
+.containerHeader .contacto {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+.containerHeader .contacto .correo {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.containerHeader .contacto .correo a {
+  color: rgb(0, 0, 0);
+  font-size: 1vw;
+  margin: 0.5rem;
+  text-decoration: none;
+  transition: ease 200ms;
+}
+.containerHeader .contacto .correo a:hover {
+  border-bottom: 1px solid rgb(255, 89, 0);
+  color: rgb(255, 89, 0);
+  font-size: larger;
+  transition: ease 200ms;
+}
+.containerHeader .contacto .telefono {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.containerHeader .contacto .telefono a {
+  color: rgb(0, 0, 0);
+  font-size: 1vw;
+  margin: 0.5rem;
+  text-decoration: none;
+  transition: ease 200ms;
+}
+.containerHeader .contacto .telefono a:hover {
+  border-bottom: 1px solid rgb(255, 89, 0);
+  color: rgb(255, 89, 0);
+  font-size: larger;
+  transition: ease 200ms;
+}
+.containerHeader .menuNavegacion {
+  display: flex;
+  justify-content: end;
+  height: 100%;
+  width: 55%;
+}
+.containerHeader .menuNavegacion .navega {
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.05);
+  border: none;
+  border-radius: 1rem;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.1vw;
+  font-weight: bolder;
+  height: 100%;
+  margin: 0.2rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+.containerHeader .menuNavegacion .navega:hover {
+  color: rgb(255, 89, 0);
+  font-size: larger;
+  transition: 100;
+}
+.containerHeader .logIn {
+  padding: 0.5rem;
+  margin: 1rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 100%;
+  width: 10%;
+}
+.containerHeader .logIn .logRegistro {
+  transition: ease 300ms;
+  background-color: white;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 0.9vw;
+  height: 50%;
+  text-align: center;
+  width: 50%;
+}
+.containerHeader .logIn .logRegistro:hover {
+  transition: ease 300ms;
+  background-color: black;
+  color: rgb(255, 89, 0);
+}
+
+footer {
+  filter: drop-shadow(0 0 0.5rem rgb(255, 89, 0));
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  height: 10vh;
+  width: 100vw;
+}
+footer .containerFooter {
+  width: 100%;
+}
+footer .containerFooter .contacto {
+  align-items: center;
+  display: flex;
+  justify-content: end;
+  padding: 0.5rem;
+  margin: 1rem;
+}
+footer .containerFooter .contacto .red {
+  padding: 0.15rem;
+  margin: 0.3rem;
+  transition: ease 500ms;
+}
+footer .containerFooter .contacto .red:hover {
+  transition: ease 500ms;
+  filter: drop-shadow(0 0 0.5rem rgb(255, 89, 0));
+}
+
+body {
+  box-sizing: border-box;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}/*# sourceMappingURL=style.css.map */
